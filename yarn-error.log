@@ -1,0 +1,36 @@
+Arguments: 
+  /home/linuxbrew/.linuxbrew/Cellar/node/13.3.0/bin/node /home/linuxbrew/.linuxbrew/Cellar/yarn/1.21.1/libexec/bin/yarn.js init
+
+PATH: 
+  /home/otaviobraga/Android/Sdk/platform-tools:/home/otaviobraga/Android/Sdk/tools:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/otaviobraga/linuxbrew/.linuxbrew/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/otaviobraga/flutter/bin
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  13.3.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/home/linuxbrew/.linuxbrew/Cellar/yarn/1.21.1/libexec/lib/cli.js:136925:13)
+      at Interface.emit (events.js:219:5)
+      at Interface._ttyWrite (readline.js:894:16)
+      at ReadStream.onkeypress (readline.js:200:10)
+      at ReadStream.emit (events.js:219:5)
+      at emitKeys (internal/readline/utils.js:438:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1160:36)
+      at ReadStream.emit (events.js:219:5)
+      at addChunk (_stream_readable.js:332:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
